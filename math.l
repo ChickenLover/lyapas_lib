@@ -18,4 +18,14 @@ gcd(a,b/d)
     §4 a+b⇒d
     **
 
-
+if_prime(n/b)
+    1⇒b
+    ↑(n≠2)1 →4
+    §1 100⇒i
+    §2 i↪4 ∇i
+    n-2⇒t X⇒x x;t+2⇒a
+    *gcd(a,n/d) ↑(d≠1)3
+    n-1⇒t *pow_mod(a,t,n/r) ↑(r≠1)3
+    →2
+    §3 Ob
+    §4 **
