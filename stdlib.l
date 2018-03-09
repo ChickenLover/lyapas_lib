@@ -38,4 +38,8 @@ printint(i/)
     @+F1(16)
     *itos(i/F1)
     @' '>F1
-    /F1>C @-F1
+    /F1>C @-F1 **
+
+scanint(/i)
+    @+F1(16) /F1<C
+    *stoi(F1/i) **
