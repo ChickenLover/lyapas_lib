@@ -29,3 +29,7 @@ if_prime(n/b)
     →2
     §3 Ob
     §4 **
+
+gen_prime(f,t/n)
+    §1 X⇒n n;t⇒n n+f⇒n ∇n n↪1
+    *if_prime(n/b) b↪1 **
