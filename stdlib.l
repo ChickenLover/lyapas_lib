@@ -11,6 +11,12 @@ itos(i/F1)
     i↦1
     **
 
+strcomp(F1,F2/b)
+    Ob ↑(Q1≠Q2)3 Oi
+    §1 ↑(i=Q1)2 ↑(F1i≠F2i)3 ∆i →1
+    §2 1⇒b
+    §3 **
+
 split(F1/L2)
 §1  @+F3(32)
 §2  Oc Q1↪4 @<F1.0⇒c
